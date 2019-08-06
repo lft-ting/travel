@@ -1,0 +1,401 @@
+/*
+* @Author: hp
+* @Date:   2019-05-08 19:25:44
+* @Last Modified by:   Shinelon
+* @Last Modified time: 2019-05-11 18:50:38
+*/
+body, html {
+	min-width: 1020px;
+	background: #465562;
+}
+body {
+	font-size: 14px;
+	font-family: 'Montserrat', 'STHeiti', 'Microsoft YaHei', Arial, sans-serif;
+	line-height: 1.4em;
+	color: #333333;
+	
+}
+header p{
+	font-size: 2.2em;
+}
+.clearfix::after{
+	content: '';
+	display:block;
+	clear: both;
+}
+.nav-title{
+	background-image: url('../images/bg-image-white-light.png');
+	background-position: top center;
+    background-repeat: no-repeat;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color:#333;
+}
+.title{
+	float: left;
+	margin-left: 10px;
+	width: 620px;
+}
+.title h2{
+	font-size: 1.8em;
+	line-height: 1.4em;
+	color: #fff;
+	//text-align: left;
+}
+.title small{
+	color: #8ca6c2;
+}
+.book button,.message button{
+    padding: 8px 30px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #d78393 0%, #b74966 100%);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.book{
+	float: right;
+	overflow:hidden;
+}
+.book p{
+	color: #fff;
+	margin: 20px 0;
+	display: block;
+}
+.book strong{
+	font-size: 2.1em;
+}
+section, main{
+	background-color: #465562;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.container{
+	//position: relative;
+    width: 1020px;
+    margin: 0 auto;
+    z-index: 1;
+}
+.con_left{
+	float: left;
+	width: 660px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.bigimg img{
+	width: 100%;
+	height: 100%;
+}
+.bigimg{	
+	overflow:hidden;
+	//position: relative;
+}
+.bigimg li{
+	width: 660px;
+    height: 370px;
+}
+.con_left ul{
+	width: 9999px;
+	position: relative;
+	left: 0px;
+}
+.con_left li{
+	float: left;
+}
+.smallimg{
+	position: relative;
+	left: 0px;
+	padding: 0px 12px;
+	overflow:hidden;
+}
+.smallimg ul{
+	width: 636px;
+	height: 68px;
+	overflow: hidden;
+}
+.smallimg img{
+	width: 100%;
+	height: 100%;
+}
+.smallimg span{
+	//font-size:40px;
+	//position:absolute;       		
+	//background:rgba(0, 0, 0, 0.5);
+	//color:#fff;
+	//cursor:pointer;
+	//padding:2px 2px;
+}
+.smallimg li{
+	width: 94px;
+    height: 62px;
+    margin: 0 3px;    
+    border: 3px solid #465562;
+
+}
+.smallimg .current{
+    border: 3px solid #af5576;
+}
+.con_left p{
+	height: 30px;
+    margin: 20px 0 15px 0;
+    color: #849BB2;
+}
+#left, #right {
+	display: block;
+	background: transparent url('../images/slideshow-nav-sprite.png') no-repeat 0 0;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 999;
+	top: 50%;
+	//margin-top: -33px;
+	cursor: pointer;
+	transform: translateY(-45%);
+}
+#left {
+	//display: none;
+	background-position: 0px 0;
+	//left: 250px;
+	left:-4px;
+	//top:50%;
+}
+#right {
+	background-position: -40px 0;
+	//right: 250px;
+	right:-4px;
+	//top:50%;
+}
+#left:hover {
+	background-position: -1px -45px;
+}
+#right:hover {
+	background-position: -41px -45px;
+}
+.con_right{
+	width: 320px;
+	height: 510px;
+	color: #384E66;
+	padding: 20px;
+	margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    box-sizing:border-box;
+    background: #8ea8c3;
+}
+.con_right h2{
+	font-size: 1.8em;
+	text-align: center;
+}
+.con_right ul{
+	margin:40px 60px;
+	font-size: 1.2em;
+	
+}
+.con_right li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content{
+	width: 660px;
+	padding: 30px 40px;
+	background: #fff;
+	box-sizing: border-box;
+}
+main strong{
+	color: #B9975B;
+}
+.top{
+	width: 660px;
+	height: 39px;
+	background: linear-gradient(to bottom, #CA5876 0%, #b64965 100%);
+	color: #fff;
+	
+}
+.top p{
+	font-size: 1.2em;
+	text-align: center;
+	line-height: 39px;
+}
+.content p{
+	margin: 10px 0;
+    color: #999;
+    line-height: 1.6em;
+}
+.tips{
+	color: #464646;
+    background-color: #f3f2f0;
+    padding: 20px;
+}
+main h2{
+	font-size: 1.3em;
+    color: #596b7c;
+    text-align: center;
+}
+ol{
+	margin: 10px 40px 20px;
+    font-size: 0.9em;
+}
+.f_left{
+	float: left;
+}
+.f_right{
+	float: right;
+}
+.r_hotel{
+	width: 320px;
+	box-sizing:border-box;
+	background: #A77FA1;
+	padding: 20px;
+}
+.hotels{
+	padding: 40px;
+    background: #ece3f6;
+    width: 280px;
+    box-sizing:border-box;
+    margin-top: 40px;
+}
+.hoteltitle{
+	padding: 10px;
+	background:rgba(255,255,255,0.5);
+	font-size: 1.6em;
+	text-align: center;
+}
+.hotels p{
+	font-size: 1.2em;
+	line-height:65px;
+}
+.message{
+	background: #A77FA1;
+	min-height: 250px;
+	margin-bottom: 60px;
+	padding: 30px;
+}
+.msg{
+	background: #fff;
+	overflow: hidden;
+	margin: 20px;
+	border-radius: 10px;
+	border: 2px solid #CA5876;
+}
+.usermsg{
+	width: 200px;
+	height: 200px;
+	border-right: 2px solid #CA5876;
+}
+.usermsg>span{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	margin: 40px auto 0px;
+	border: 3px solid #465562;
+}
+.usermsg img{
+	width: 80px;
+}
+.usermsg p{
+	text-align: center;
+    margin-top: 20px;
+}
+.mainmsg{
+	padding:20px;
+	height: 200px;
+	width: 714px;
+	box-sizing:border-box;
+}
+.mainmsg p{
+	height:150px;
+	font-size:1.2em;
+	line-height: 30px;
+}
+.mainmsg .time{
+	height: 30px;
+	line-height:30px;
+	text-align: right;
+}
+#putmsg{
+	width: 916px;
+	margin-left: 20px;
+	border-radius: 10px;
+	border: 2px solid #CA5876;
+}
+.message button{
+	position:relative;
+	right: -825px;
+    bottom: -10px;
+}
+
+
+.newbook{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 54, 66, 0.9);
+    z-index: 3;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+
+}
+.is-visible{
+	visibility: visible;
+	opacity: 1;
+}
+.user-book{
+	position: relative;
+	width: 90%;
+	max-width: 600px;
+	background: #fff;
+	cursor: auto;
+	border-radius: 0.25em;
+	margin: 4em auto;
+	padding: 20px 40px;
+}
+.user-book:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.is-selected{
+	display: block;
+}
+.book-form{
+	padding: 2em;
+}
+.book-form li{
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 15px;
+}
+.book-form label{
+	display: block;
+	color: #333;
+	font-size:1.2em;
+}
+.book-form input{
+	width: 200px;
+	padding: 12px 10px;
+	font-size: 1.2em;
+	background: #EAEAEA;
+	border: 1px solid transparent;
+}
+.book-form textarea{
+	width: 540px;
+	height: 140px;
+	padding: 12px 10px;
+	font-size: 1.2em;
+	background: #EAEAEA;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+}
+.book-form button{
+	margin-left: 130px;
+	width: 80px;
+	height: 30px;
+	font-size:1.2em;
+}
